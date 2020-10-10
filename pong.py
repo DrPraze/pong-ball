@@ -1,5 +1,6 @@
 import sys
 import pygame
+from time import sleep
 from random import randint
 
 class game:
@@ -92,4 +93,5 @@ class game:
         pygame.quit()
 if __name__=='__main__':
     AI = game()
+    sleep(4)
     AI.run()
